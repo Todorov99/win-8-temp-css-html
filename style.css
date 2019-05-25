@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(12, 95, 12);
+}
+
+.title{
+    font-family: fantasy;
+    font-size: 40px;
+    margin: 10px;
+    padding: 5%;
+
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.order{
+    padding: 0;
+    margin-left: 0px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    margin-left: 97px;
+    
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: whitesmoke;
+    text-align: left;
+    padding: 0;
+    position: relative;
+    top: 110px;
+    left: 5px;
+}
+
+.text1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: whitesmoke;
+    text-align: left;
+    padding: 0;
+    position: relative;
+    bottom: 110px;
+    left: 15px;
+}
+.item1{
+    background: rgb(0, 174, 255);
+    width: 270px;
+    height: 130px;
+    background-image: url('home.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item2{
+    background: #ff7300e5;
+    margin-left: 10px;
+    width: 250px;
+    height: 130px;
+    background-image: url('settings.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item3{
+    background: rgb(235, 14, 14);
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    background-image: url('camera.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item4{
+    background: #0d6ba1e5;;
+    margin-left: 75px;
+    width: 130px;
+    height: 130px;
+    background-image: url('facebook_003.png');
+    background-size: 138px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item5{
+    background: #68c3ffe5;
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    background-image: url('facetime.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.item6{
+    background: rgb(75, 207, 14);
+    width: 130px;
+    height: 130px;
+    background-image: url('favorite.png');
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.item7{
+    background: #60bef5e5;
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    background-image: url('twitter_003.png');
+    background-size: 137px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.item8{
+    background: rgb(250, 197, 22);
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    background-image: url('places.png');
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item9{
+    background: whitesmoke;
+    margin-left: 10px;
+    width: 250px;
+    height: 130px;
+    background-image: url("gallery.jpg");
+}
+
+.item10{
+    background: rgb(150, 14, 14);
+    margin-left: 75px;
+    width: 130px;
+    height: 130px;
+    background-image: url('task.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item11{
+    background: rgb(189, 5, 82);
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    background-image: url('explorer.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.item12{
+    background: rgb(235, 14, 14);
+    width: 130px;
+    height: 130px;
+    background-image: url('browser.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.item13{
+    background: #ff7300e5;;
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    background-image: url('mail.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.calendar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: right;
+    position: relative;
+    right: 8px;
+    padding: 11%; 
+}
+
+.item14{
+    background: rgb(0, 174, 255);
+    margin-left: 10px;
+    width: 250px;
+    height: 130px;
+    background-image: url('calendar.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: left;
+    
+}
+
+.number{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: whitesmoke;
+    text-align: right;
+    position: relative;
+    right: 25px;
+    bottom: 40px;
+    padding: 3%; 
+}
+
+.item15{
+    background: rgb(75, 207, 14);
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    background-image: url('skydrive.png');
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item16{
+    background: rgb(250, 197, 22);
+    margin-left: 75px;
+    width: 270px;
+    height: 130px;
+    background-image: url('media.png');
+    background-size: 85px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+ul :hover{
+
+    -webkit-transform: scale(1.05);
+}
+
+ul :active{
+
+    -webkit-transform: scale(1);
+}
